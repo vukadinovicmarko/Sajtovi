@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<rss version="2.0">
+	<channel>
+		<title>RSS-Novosti</title>
+		<link>http://markohotel.byethost8.com/index.html</link>
+		<description>Pocetna strana - Hotel Marko</description>
+		
+		<item>
+			<title>Smestaj</title>
+			<link>http://markohotel.byethost8.com/sadrzaj/smestaj.html</link>
+			<description>Hotel Marko - Smestaj - Nove cene, nove sobe, novi apartmani</description>
+			
+		</item>
+		<item>
+			<title>Galerija</title>
+			<link>http://markohotel.byethost8.com/sadrzaj/galerija.html</link>
+			<description>Hotel Marko - Galerija, pogledajte nove fotografije, iz vašeg najbolje hotela</description>
+			
+		</item>
+	</channel>
+</rss>

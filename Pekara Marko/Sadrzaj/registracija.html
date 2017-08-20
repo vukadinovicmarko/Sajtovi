@@ -1,0 +1,341 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>Pekara Marko | Registracija</title>
+	<meta http-equiv="content-Type" content="text/html; charset=utf-8">
+	<meta name="keywords" content="Pekara,marko,Marko,Pekara marko,Pekara Marko,Hleb,Kolaci,Nasa Peciva,Peciva,Nasi kolaci,kontakt, pekara kontakt, pekara lokacija, pekara marko lokacija, marko pekara lokacija,pekara beograd,pekara pravi izbor,izbor,pravi izbor,Vasa pekara marko"/>
+	<meta name="description" content="Jedina pekara u ovom delu grada koja proizvodi hleb i ostale proizvode od brašna na zdrav način"/>
+	<link rel="icon" href="../Slike/favicon.ico" type="image/x-icon"/>
+	<link rel="shortcut icon" href="../Slike/favicon.ico" type="image/x-icon">
+		<link href="../CSS/pekara.css"  rel="stylesheet" type="text/css"/>
+		<style type="text/css">
+			
+		</style>
+			
+		<script language="javascript" type="text/javascript">
+							function prikazi () 
+							{
+								var podmeni = document.getElementById("podmeni");
+								var onama = document.getElementById("onama");
+								podmeni.style.display = "block";
+								onama.style.color = "white";
+							}
+							function sakri ()
+							{
+								var podmeni = document.getElementById("podmeni");
+								var onama = document.getElementById("onama");
+								podmeni.style.display = "none";
+								onama.style.color = "black";
+							}
+							/*-------------------------------------Submit------------------------------------*/
+							
+							
+							function validateOnSubmit(form)
+							{
+								if (isEMail(form.email)) 
+								{
+									{
+										return true;
+									}
+								}
+								return false;
+							}
+							
+							
+							/*-------------------------------------Validacija E-maila-------------------------------------*/
+							
+							function isEMail(vfld) 
+							{
+								var elem = document.getElementById('info_email');
+								var str = vfld.value;
+								var re = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+								if (!str.match(re)) 
+								{
+									elem.innerHTML = "Neispravan format e-mail adrese.";
+									elem.className = "error";
+									vfld.focus();
+									return false;
+								}
+								else 
+								{
+									elem.innerHTML = "Pravilan e-mail";
+									return true;
+								}
+							}
+							
+							
+													
+													
+							/*----------------------------------------Validacija-----------------------------------*/
+							function validacija()
+							{
+								
+								var invalid = " "; // Invalid character is a space
+								var minLength = 6; // Minimum length
+								var re = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+								var error = "";
+								var pw1 = document.myForm.password.value;
+								var pw2 = document.myForm.password2.value;
+								var pw5 = document.myForm.fullname.value;
+								var pw6 = document.myForm.email.value;
+								// check for a value in both fields.
+								
+								
+								 
+								 if (pw5 == "") {
+									alert("Molimo ukucajte Vase Ime i Prezime.");
+									return false;
+								 }
+								var illegalChars = /\W/;
+								  // allow only letters, numbers, and underscores
+								if (illegalChars.test(pw5)) {
+								   alert("Ukucajte pravilno Ime i Prezime.");
+								   return false;
+								} 
+								
+								
+								if (pw1 == '' || pw2 == '')
+								{
+									alert("Molimo ukucajte Vasu Lozinku dva puta.");
+									return false;
+								}
+								// check for minimum length
+								if (document.myForm.password.value.length < minLength)
+								{
+									alert("Vasa Lozinka mora imati najmanje " + minLength + " karaktera. Pokusajte ponovo.");
+									return false;
+								}
+								// check for spaces
+								if (document.myForm.password.value.indexOf(invalid) > -1)
+								{
+									alert("Odvajanje reci nije dozvoljeno.");
+									return false;
+								}
+								
+								
+								else
+								{
+									if (pw1 != pw2)
+									{
+										alert("Niste ukucali Lozinku dva puta. Pokusajte ponovo.");
+										return false;
+									}
+									if (!pw6.match(re)) 
+									{
+										alert("Neispravan format e-mail adrese.");
+										return false;
+									}
+									else
+									{
+										
+										return true;
+									}
+								
+							    }
+								
+							}
+							
+							
+							/*-----------------------------------Validacija datuma rodjenja-------------------------------------------*/
+							function populate(inForm)
+							{
+								var temp=0;
+								var today= new Date();
+								var day= today.getDate();
+								var month= today.getMonth();
+								var year= today.getFullYear();
+								t2= 100;
+								for (var i=0; i <31 ; i++)
+								{
+									var x= String(i+1);
+									inForm.day.options[i] = new Option(x,x);
+								}
+								for (var i=0; i <31 ; i++)
+								{
+									var d=0;
+									d=inForm.day.options[i].value;
+									if(d=day)
+									{
+										inForm.day.options[i].selected=true;
+										break;
+									}
+								}
+								for (var i=0,j=year; i <t2 ; i++, j--)
+								{
+								var y= String(j);
+								inForm.year.options[i] = new Option(y,y);
+								}
+								for(var i=0;i<12;i++)
+								{
+									if(i=month)
+									{
+										inForm.month.options[i].selected=true;
+										break;
+									}
+								
+								}
+
+							}
+							function populate2(inForm2)
+							{
+								var t3=0;
+								if(inForm2.month.options[1].selected)
+								t3=28;
+								else if(inForm2.month.options[8].selected||inForm2.month.options[3].selected||inForm2.month.options[5].selected||inForm2.month.options[10].selected)
+								t3=30;
+								else
+								t3=31;
+								for(i=0;i<31;i++)
+								{
+									inForm2.day.options[i]=null;
+								}
+								for (var i=0; i <t3 ; i++)
+								{
+									var x= String(i+1);
+									inForm2.day.options[i] = new Option(x);
+								}
+							}
+							/*----------------------------------------------------------------------------------------------------------------------------------------------*/
+		</script>
+	
+	
+	</head>
+	<div id="baner"></div>
+	<body onLoad=populate(myForm)>
+		<div id="header">
+			<!-- <hr  color="#F7B800" align="center" size="5"/> -->
+			<h1 align="center" class="h1">PEKARA MARKO</h1>
+			<hr color="black" align="center" size="1" width="450"/>
+			<h2 align="center" class="h2">PRAVI IZBOR</h2>
+			<!-- <hr  color="#F7B800" align="center" size="5"/> -->
+		</div>
+		<div id="navigacija" align="center">
+			<ul id="navigacionimeni" align="center">
+				<li><a href="../index.html" class="box">NASLOVNA</a></li>
+				<li>
+					<a href="onama.html" onmouseover="prikazi();" onmouseout="sakri();" id='onama' class="box">O NAMA</a>
+					<ul id='podmeni' onmouseover="prikazi();" onmouseout="sakri();">
+						<li>
+							<a href='kontakt.html' class="box" style='padding:5px 20px;margin:0px;'>KONTAKT</a>
+						</li>
+					</ul>
+				</li>
+				<li><a href="proizvodi.html" class="box">NAŠI PROIZVODI</a></li>
+				<li><a href="o_autoru.html" class="box">O AUTORU</a></li>
+			</ul>
+		</div>
+		<div id="content3"> 
+		<form name=myForm onsubmit="return validacija()" action="Hvala.html">
+		
+			<table align="center" cellpadding="5"  cellspacing="5" border="5"class="txtpolja6">
+				<tr>
+					<th  colspan="3" align="center" class="txtpolja4">R E G I S T R A C I J A</th>
+				</tr>
+				<tr>
+					<td align="center">Ime i Prezime</td>
+					<td ><input type="text"  name=fullname size="40" />*</td>
+				</tr>
+				
+				<tr>
+					<td  align="center">Lozinka</td>
+					<td  ><input type=password name=password size="30" maxlength="12"  />*</td>
+					
+				</tr>
+				<tr>
+					<td align="center">Potvrda Lozinke</td>
+					<td ><input type=password name=password2 size="30" maxlength="12" />*</td>
+					
+				</tr>
+				
+				<tr>	
+					<td align="center">Datum Rodjenja:</td>
+					<td >
+						<i>Day</i><SELECT NAME="day"></SELECT>
+						<i>Month</i>
+						<SELECT NAME="month" onChange = populate2(myForm)>
+							<Option value=0>January</Option>
+							<Option value=1>February</Option>
+							<Option value=2>March</Option>
+							<Option value=3>April</Option>
+							<Option value=4>May</Option>
+							<Option value=5>June</Option>
+							<Option value=6>July</Option>
+							<Option value=7>August</Option>
+							<Option value=8>September</Option>
+							<Option value=9>October</Option>
+							<Option value=10>November</Option>
+							<Option value=11>December</Option>
+						</SELECT>
+						<i>Year</i><SELECT NAME="year"></SELECT>
+					</td>
+				</tr>
+				<tr>
+					<td align="center">Zemlja</td>
+					<td >
+						<select class="zemlja" name="Zemlja">
+							<option >Izaberite Zemlju</option>
+							<option value="Srbija" name="Godina">Srbija</option>
+							<option value="UK" name="Godina">UK</option>
+							<option value="USA" name="Godina">USA</option>
+							<option value="Ostale Zemlje" name="Godina">Ostale Zemlje</option>
+						</select>
+					</td>
+				</tr>
+				
+				<tr>
+					<td align="center">E-mail:</td>
+					<td ><input type="text" name="email" size="30" maxlength="50" onchange="isEMail(this);"/>*</td>
+					<td><span id="info_email">Ukucajte Vas e-Mail</span></td>
+				</tr>
+				
+				<tr>
+					<td align="center">Pol</td>
+					<td  >
+					<input type="radio" name="Pol" value="M" method="post">Muski
+					<input type="radio" name="Pol" value="Z" method="post">Zenski</td>
+				</tr>
+				<tr>
+					<td colspan="3">Zelim da primam obavestenja i novosti&nbsp;&nbsp;<input type="checkbox" checked></td>
+				
+				</tr>
+				<tr>
+					
+					<td colspan="3" ><input type="submit" name="Registracija" value="Registracija"  />&nbsp;&nbsp;<input type="reset" name="Ponisti" value="Ponisti" /></td>
+				</tr>
+			</table>
+		</div>
+    </form>
+	<div id="footer">
+			<div id="content_footer">
+				<div id="navigacija_footer" align="center">
+					<ul id="navigacionimeni_footer" align="center">
+						<li><a href="../index.html" class="box2">NASLOVNA</a></li>
+						<li><a href="onama.html" class="box2" >O NAMA</a></li>
+						<li><a href="kontakt.html" class="box2">LOKACIJA</a></li>
+					</ul>
+				</div>
+				<hr color="white" size="2" align="center" width="550px"/>
+				<div id="adresa">
+					<p class="rights" align="center">Pekara Marko, Ulica Izmišljenih Heroja 1, Beograd</p>
+				</div>
+				<div id="fejs">
+					<a href="http://www.facebook.com/m4r3ja" target="_blank"><img src="../Slike/facebook3.png"  width="35px"
+					onmouseover="this.src='../Slike/facebook4.png'"
+					onmouseout="this.src='../Slike/facebook3.png'"/></img></a>
+				</div>
+				<div id="tube">
+					<a href="http://www.youtube.com/m4r3ja" target="_blank"><img src="../Slike/youtube11.png"  width="35px"
+					onmouseover="this.src='../Slike/youtube3.png'"
+					onmouseout="this.src='../Slike/youtube11.png'"/></img></a>
+				</div>
+				<div id="autor">
+					<p class="rights">WEBSITE CREATED BY: <a href="../Sadrzaj/o_autoru.html" style="text-decoration:none;color:black";>Marko Vukadinović</a></p>
+				</div>
+			</div>
+				
+	</div>
+	</body>
+</html>

@@ -1,0 +1,16 @@
+f:\marko\trenutno\documents\visual studio 2013\Projects\BioskopMarko\MilankovDeo\bin\Release\MilankovDeo.dll.config
+f:\marko\trenutno\documents\visual studio 2013\Projects\BioskopMarko\MilankovDeo\bin\Release\MilankovDeo.dll
+f:\marko\trenutno\documents\visual studio 2013\Projects\BioskopMarko\MilankovDeo\bin\Release\MilankovDeo.pdb
+f:\marko\trenutno\documents\visual studio 2013\Projects\BioskopMarko\MilankovDeo\bin\Release\EntityFramework.dll
+f:\marko\trenutno\documents\visual studio 2013\Projects\BioskopMarko\MilankovDeo\bin\Release\EntityFramework.xml
+f:\marko\trenutno\documents\visual studio 2013\Projects\BioskopMarko\MilankovDeo\obj\Release\MilankovDeo.dll
+f:\marko\trenutno\documents\visual studio 2013\Projects\BioskopMarko\MilankovDeo\obj\Release\MilankovDeo.pdb
+f:\marko\trenutno\documents\visual studio 2013\Projects\BioskopMarko\MilankovDeo\obj\Release\MilankovDeo.csprojResolveAssemblyReference.cache
+H:\Posao\Git\Sajtovi\BioskopMarko\MilankovDeo\bin\Release\MilankovDeo.dll.config
+H:\Posao\Git\Sajtovi\BioskopMarko\MilankovDeo\bin\Release\MilankovDeo.dll
+H:\Posao\Git\Sajtovi\BioskopMarko\MilankovDeo\bin\Release\MilankovDeo.pdb
+H:\Posao\Git\Sajtovi\BioskopMarko\MilankovDeo\bin\Release\EntityFramework.dll
+H:\Posao\Git\Sajtovi\BioskopMarko\MilankovDeo\bin\Release\EntityFramework.xml
+H:\Posao\Git\Sajtovi\BioskopMarko\MilankovDeo\obj\Release\MilankovDeo.csprojResolveAssemblyReference.cache
+H:\Posao\Git\Sajtovi\BioskopMarko\MilankovDeo\obj\Release\MilankovDeo.dll
+H:\Posao\Git\Sajtovi\BioskopMarko\MilankovDeo\obj\Release\MilankovDeo.pdb

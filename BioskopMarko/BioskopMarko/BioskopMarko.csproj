@@ -1,0 +1,283 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{4956A3F2-30F6-406E-80F3-C3D1DBF89AD9}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BioskopMarko</RootNamespace>
+    <AssemblyName>BioskopMarko</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="administracija\Administracija.aspx" />
+    <Content Include="administracija\UpravljanjeAnketama.aspx" />
+    <Content Include="administracija\UpravljanjeFilmovima.aspx" />
+    <Content Include="administracija\UpravljanjeGalerijama.aspx" />
+    <Content Include="administracija\UpravljanjeKorisnicima.aspx" />
+    <Content Include="administracija\UpravljanjeSlikama.aspx" />
+    <Content Include="administracija\UpravljanjeStranamaKontakt.aspx" />
+    <Content Include="assets\css\bootstrap.css" />
+    <Content Include="assets\css\bootstrap.min.css" />
+    <Content Include="assets\css\modern-business.css" />
+    <Content Include="assets\css\style.css" />
+    <Content Include="assets\images\background01.jpg" />
+    <Content Include="assets\images\background02.png" />
+    <Content Include="assets\images\background03.png" />
+    <Content Include="assets\images\background04.png" />
+    <Content Include="assets\images\background05.png" />
+    <Content Include="assets\images\img01.jpg" />
+    <Content Include="assets\images\slikeFilmova\slika01.jpg" />
+    <Content Include="assets\images\slikeFilmova\slika02.jpg" />
+    <Content Include="assets\images\slikeFilmova\slika03.jpg" />
+    <Content Include="assets\images\slikeFilmova\slika04.jpg" />
+    <Content Include="assets\images\slikeFilmova\slika05.jpg" />
+    <Content Include="assets\images\slikeFilmova\slika06.jpg" />
+    <Content Include="assets\images\slikeFilmova\slika07.jpg" />
+    <Content Include="assets\images\slikeFilmova\slika08.jpg" />
+    <Content Include="assets\images\slikeFilmova\slika09.jpg" />
+    <Content Include="assets\images\slikeFilmova\slika10.jpg" />
+    <Content Include="assets\images\slikeFilmova\slika11.jpg" />
+    <Content Include="assets\images\slikeFilmova\slika12.jpg" />
+    <Content Include="assets\images\slikeFilmova\slika13.jpg" />
+    <Content Include="assets\images\slikeFilmova\slika14.jpg" />
+    <Content Include="assets\images\slikeFilmova\slika15.jpg" />
+    <Content Include="assets\images\slikeFilmova\slika16.jpg" />
+    <Content Include="assets\images\slikeFilmova\slika17.jpeg" />
+    <Content Include="assets\images\slikeFilmova\slika18.jpg" />
+    <Content Include="assets\images\slikeFilmova\slika19.jpg" />
+    <Content Include="assets\js\bootstrap.js" />
+    <Content Include="assets\js\bootstrap.min.js" />
+    <Content Include="assets\js\contact_me.js" />
+    <Content Include="assets\js\jqBootstrapValidation.js" />
+    <Content Include="assets\js\jquery.js" />
+    <Content Include="Default.aspx" />
+    <Content Include="Galerija.aspx" />
+    <Content Include="Kontakt.aspx" />
+    <Content Include="Login.aspx" />
+    <Content Include="Logout.aspx" />
+    <Content Include="MojWebService.asmx" />
+    <Content Include="Oautoru.aspx" />
+    <Content Include="Registracija.aspx" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AdministracijaMaster.Master.cs">
+      <DependentUpon>AdministracijaMaster.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdministracijaMaster.Master.designer.cs">
+      <DependentUpon>AdministracijaMaster.Master</DependentUpon>
+    </Compile>
+    <Compile Include="administracija\Administracija.aspx.cs">
+      <DependentUpon>Administracija.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="administracija\Administracija.aspx.designer.cs">
+      <DependentUpon>Administracija.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="administracija\UpravljanjeAnketama.aspx.cs">
+      <DependentUpon>UpravljanjeAnketama.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="administracija\UpravljanjeAnketama.aspx.designer.cs">
+      <DependentUpon>UpravljanjeAnketama.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="administracija\UpravljanjeFilmovima.aspx.cs">
+      <DependentUpon>UpravljanjeFilmovima.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="administracija\UpravljanjeFilmovima.aspx.designer.cs">
+      <DependentUpon>UpravljanjeFilmovima.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="administracija\UpravljanjeGalerijama.aspx.cs">
+      <DependentUpon>UpravljanjeGalerijama.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="administracija\UpravljanjeGalerijama.aspx.designer.cs">
+      <DependentUpon>UpravljanjeGalerijama.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="administracija\UpravljanjeKorisnicima.aspx.cs">
+      <DependentUpon>UpravljanjeKorisnicima.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="administracija\UpravljanjeKorisnicima.aspx.designer.cs">
+      <DependentUpon>UpravljanjeKorisnicima.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="administracija\UpravljanjeSlikama.aspx.cs">
+      <DependentUpon>UpravljanjeSlikama.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="administracija\UpravljanjeSlikama.aspx.designer.cs">
+      <DependentUpon>UpravljanjeSlikama.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="administracija\UpravljanjeStranamaKontakt.aspx.cs">
+      <DependentUpon>UpravljanjeStranamaKontakt.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="administracija\UpravljanjeStranamaKontakt.aspx.designer.cs">
+      <DependentUpon>UpravljanjeStranamaKontakt.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Galerija.aspx.cs">
+      <DependentUpon>Galerija.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Galerija.aspx.designer.cs">
+      <DependentUpon>Galerija.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Kontakt.aspx.cs">
+      <DependentUpon>Kontakt.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Kontakt.aspx.designer.cs">
+      <DependentUpon>Kontakt.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Logout.aspx.cs">
+      <DependentUpon>Logout.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Logout.aspx.designer.cs">
+      <DependentUpon>Logout.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MarkoMaster.Master.cs">
+      <DependentUpon>MarkoMaster.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MarkoMaster.Master.designer.cs">
+      <DependentUpon>MarkoMaster.Master</DependentUpon>
+    </Compile>
+    <Compile Include="MojWebService.asmx.cs">
+      <DependentUpon>MojWebService.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Oautoru.aspx.cs">
+      <DependentUpon>Oautoru.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Oautoru.aspx.designer.cs">
+      <DependentUpon>Oautoru.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Registracija.aspx.cs">
+      <DependentUpon>Registracija.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Registracija.aspx.designer.cs">
+      <DependentUpon>Registracija.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="MarkoMaster.Master" />
+    <Content Include="AdministracijaMaster.Master" />
+    <Content Include="administracija\Web.config" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <Content Include="Web.sitemap">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MilankovDeo\MilankovDeo.csproj">
+      <Project>{72db47cf-5cd5-4f42-bbc9-d44f4dd77811}</Project>
+      <Name>MilankovDeo</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>54424</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:54424/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

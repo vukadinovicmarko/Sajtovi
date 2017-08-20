@@ -1,0 +1,1210 @@
+html{
+	height:100%;
+}
+body{
+	width:100%;
+	margin:0 auto;
+	background-image:url(slike/pentagon.png);
+	font-family:Segoe UI,Verdana;
+}
+.ocisti{
+	clear:both;
+}
+
+
+
+
+#logo_slika{
+	width:170px;
+	height:170px;
+	margin-top:8px;
+	float:left;
+	background-color:transparent;
+	
+}
+#logo_slika:hover{
+	
+}
+
+
+/*------------------------ A D M I N I S T R A T O R ----------------------------*/
+
+/*-------------------------- H E A D E R  A D M I N ----------------------------*/
+
+#sajt_gore_admin{
+	width:99%;
+	border-bottom:1px solid black;
+	box-shadow:0px 10px 30px black;
+	height:100px;
+	background-image:url(slike/pozadina2.jpg);
+	
+	overflow:hidden;
+	margin:0 0.5%;
+	
+}
+
+
+#sajt_gore_admin a{
+	color:white;
+}
+
+#heder_admin{
+	width:1000px;
+	margin:0 auto;
+	overflow:hidden;
+}
+
+
+
+#menu_admin{
+	position:relative;
+	width:1000px;
+	height:50px;
+	z-index:9999;
+	margin:0 auto;
+	box-shadow:0px 0px 10px gold;
+
+}
+#menu_admin ul{
+	width:1000px;
+	margin:0 auto;
+	padding:0px;
+}
+#meni_admin a{
+	text-decoration:none;
+}
+#menu_admin li{
+	list-style-type:none;
+	text-align:center;
+	float:left;
+	
+}
+
+/*-------------------------- S R E D I N A -- A D M I N ----------------------------*/
+
+#prviDiv{
+	width:300px;
+	height:100px;
+	float:left;
+	border-right:1px solid black;
+	/* border-bottom:1px solid black; */
+	background-image:url(slike/pozadina6.png);
+	border-radius:0px 50px 0px 0px;
+}
+#drugiDiv{
+	width:300px;
+	height:100px;
+	margin-top:-20px;
+	float:right;
+	border-left:1px solid black;
+	background-image:url(slike/pozadina6.png);
+	border-radius:50px 0px 0px;
+}
+
+#izaberi_akciju_admin{
+	border:1px solid black;
+	width:200px;
+	margin:0 auto;
+	
+	color:black;
+	
+}
+.selectOnly{
+	border:1px solid black;
+	width:200px;
+	margin:0 auto;
+	background-color:black;
+	color:white;
+}
+
+
+#prviDDL{
+	/* border:1px solid red; */
+	width:200px;
+	margin:0 auto;
+	
+}
+
+#dodatniDDL{
+	/* border:1px solid red; */
+	width:200px;
+	margin:0 auto;
+	background-color:white;
+	text-align:center;
+}
+
+#sajt_sve_admin{
+	position:relative;
+	width:1000px;
+	top:50px;
+	min-height:1000px;
+	margin:0 auto;
+	border:1px solid black;
+}
+
+#sajt_sve_prvo_admin{
+	
+	position:relative;
+	box-shadow:0px -15px 20px black;
+	height:100px;
+	width:1000px;
+	margin:0 auto;
+	
+}
+.fakeLink{
+	color:white;
+	background-color:rgba(0,0,0,0.3)
+}
+.fakeLink:hover{
+	cursor:pointer;
+	
+}
+#search{
+    float: right;
+    margin-right: 20px;
+    margin-top: -44px;
+	background-image:url('slike/lupa.png');
+	background-repeat:no-repeat;
+	padding:3px;
+	padding-left:20px;
+}
+#searchResult{
+    float: right;
+    margin-right: 20px;
+    margin-top: -44px;
+	padding:3px;
+	padding-left:20px;
+}
+#searchResult ul{
+	display:block;
+}
+#sajt_sve_sredina_admin{
+	position:relative;
+	width:1000px;
+	min-height:1500px;
+	/* border:1px solid black; */
+	margin:0 auto;
+	background-image:url(slike/pozadina6.png);
+	
+}
+#tabela_select{
+	width:1000px;
+	height:auto;
+	/* border:1px solid red; */
+	margin:0 auto;
+}
+
+#tabele_izmene{
+	width:1000px;
+	height:auto;
+	/* border:1px solid yellow; */
+	margin:0 auto;
+}
+
+#tabela_insert{
+	position:relative;
+	width:495px;
+	height:auto;
+	/* border:1px solid green; */
+	float:left;
+}
+
+#tabela_update{
+	position:relative;
+	width:495px;
+	height:auto;
+	/* border:1px solid black; */
+	float:right;
+}
+
+
+.glavna_tabela_select{
+	text-align:center;
+	font-size:14px;
+	font-family:Tahoma;
+	color:black;
+	
+	margin:0 auto;
+	background-image:url(slike/metal1.png);
+	width:970px;
+	border:1px solid black;
+}
+.glavna_tabela_select th{
+	background-color:rgba(0,0,0,0.6);
+	color:white;
+	
+	text-transform:uppercase;
+}
+.glavna_tabela_select td{
+	color:black;
+	text-shadow:1px 1px 15px white;
+	background-color:rgba(105,100,0,0.1);
+	
+	
+}
+
+.glavna_tabela_select a{
+	color:white;
+	text-decoration:none;
+	text-shadow:1px 1px 5px black;
+}
+.nekaForma{
+	width:400px;
+	margin-bottom:20px !important;
+}
+.tabela_gl_link_dodaj{
+	text-align:center;
+	font-size:14px;
+	font-family:Tahoma;
+	margin-top:20px;
+	background-image:url(slike/menu4.png);
+	width:470px;
+	margin:0 auto;
+	border:1px solid black;
+}
+
+.tabela_gl_link_dodaj th{
+	background-color:rgba(0,0,0,0.6);
+	color:white;
+	text-transform:uppercase;
+}
+
+
+.tabela_gl_link_izmeni{
+	text-align:center;
+	font-size:14px;
+	font-family:Tahoma;
+	
+	background-image:url(slike/menu4.png);
+	width:470px;
+	float:right;
+	border:1px solid black;
+}
+.tabela_gl_link_izmeni th{
+	background-color:rgba(0,0,0,0.6);
+	color:white;
+	text-transform:uppercase;
+}
+
+.formaID{
+	background-color:rgba(0,0,0,0.6);
+	color:white;
+	padding-left:3px;
+	padding-right:3px;
+}
+
+.legenda_tabela_select{
+	
+}
+.legenda_tabela_dodaj{
+
+}
+.legenda_tabela_izmeni{
+
+}
+
+
+#fildset_select{
+	border:1px solid red;
+	font-family:Tahoma;
+	width:970px;
+	margin:0 auto;
+	text-shadow:1px 1px 20px black;
+	box-shadow:0px 5px 4px black;
+}
+
+#fildset_dodaj{
+	border:1px solid red;
+	font-family:Tahoma;
+	width:470px;
+	float:left;
+	text-shadow:1px 1px 20px black;
+	box-shadow:0px 5px 4px black;
+}
+
+#fildset_izmeni{
+	border:1px solid red;
+	font-family:Tahoma;
+	width:470px;
+	float:right;
+	text-shadow:1px 1px 20px black;
+	box-shadow:0px 5px 4px black;
+}
+
+/*-------------------A D M I N I S T R A T O R-----K R A J---------------------------*/
+
+/*----------------------------------H E A D E R-------------------------------------*/
+
+
+#sajt_gore{
+	position:absolute;
+	width:99%;
+	border-bottom:1px solid black;
+	box-shadow:0px 10px 30px black;
+	height:260px;
+	background-image:url(slike/pozadina2.jpg);
+	
+	z-index:20;
+	overflow:hidden;
+	margin:-250px 0.5%;
+	
+}
+
+
+#sajt_gore a{
+	color:white;
+}
+
+
+#heder_sadrzaj{
+	position:relative;
+	overflow:hidden;
+	width:1000px;
+	height:180px;
+	 /* border:1px solid green;  */
+	
+	
+	top:80px;
+	border-radius:0px 10px 10px;
+	margin-left:0px;
+	
+	list-style-type:none;
+}
+#heder_sadrzaj_tekst{
+	border-radius:20px;
+	display:flex;
+	width:570px;
+	height:170px;
+	background-image:url(slike/pentagon.png);
+	float:left;
+	margin-left:50px;
+	color:black;
+	font-size:12px;
+	
+}
+
+#heder_sadrzaj_tekst .linkovi{
+	box-shadow:0px 0px 10px black;
+	width:190px;
+	height:170px;
+	text-shadow:0px 0px 20px black;
+	text-align:center;
+	text-transform:uppercase;
+}
+
+.link_naslov{
+	font-size:13px;
+	padding-top:10px;
+	padding-bottom:10px;
+	width:190px;
+	height:20px;
+	/* border-right:1px solid red; */
+	
+	
+	
+	
+}
+.link_naslov a{
+	text-decoration:none;
+	color:rgb(200,0,0) !important;
+	
+}
+
+
+
+.link_ostalo{
+	padding-top:15px;
+	width:190px;
+	
+	/* border-right:1px solid red; */
+	height:110px;
+	
+	
+	
+	
+}
+
+.link_ostalo a{
+	text-decoration:none;
+	color:black !important;
+}
+
+
+
+
+
+#forma_registracija {
+	display:none;
+    float: right;
+    font-size: 12px;
+    height: 170px;
+    /* margin-top: -170px; */
+	margin-left:-50px;
+    width: 150px;
+	box-shadow:-5px 0px 15px black;
+	background-image:url(slike/pentagon.png);
+}
+
+.login_a{
+	
+	font-size:12px;
+	color:red !important;
+}
+#forma_registracija td{
+	font-size:12px;
+	
+}
+#forma_registracija th{
+	background-image:url(slike/metal1.png);
+	font-size:12px;
+	color:white;
+	
+}
+
+
+
+
+#registracija{
+	width:600px;
+	margin:0 auto;
+	
+}
+
+#fildset-registracija{
+	
+	box-shadow:0px 10px 15px black;
+}
+
+#tbReg{
+	align:center;
+}
+
+.label{
+	
+}
+
+.text_input{
+	color:white;
+	width:180px;
+	font-size:10px;
+}
+
+.error_reg{ 
+	background: red none repeat scroll 0 0;
+    color: white;
+    left: 50%;
+    margin-left: -100px;
+    margin-top: -25px;
+    padding: 10px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 200px;
+    z-index: 15;
+}
+
+#heder{
+	position:relative;
+	color:white;
+	width:1000px;
+	height:250px;
+	margin:0 auto;
+	 
+	/* border-left:1px solid white;
+	border-right:1px solid white;
+	border-bottom:1px solid white; */
+	overflow:hidden;
+	
+}
+#menu{
+	position:fixed;
+	width:1001px;
+	height:35px;
+	z-index:9999;
+	margin-top: 10px;
+	box-shadow:0px 0px 10px silver;
+	/* border:1px solid red; */
+}
+#menu:hover{
+	box-shadow:0px 0px 15px silver;
+}
+#menu ul{
+	width:1000px;
+	
+	float:right;
+	padding:0px;
+}
+#meni a{
+	text-decoration:none;
+}
+#menu li{
+	list-style-type:none;
+	text-align:center;
+	float:left;
+	
+}
+
+#nivo0{
+	
+	width:900px;
+	background-image:url(slike/menu4.png);
+	background-repeat:repeat-x;
+	color:white;
+	font-family:Tahoma;
+	text-transform:uppercase;
+	/* border:1px solid white; */
+	height:35px;
+	margin-top:0px;
+	
+	
+	
+}
+
+#nivo0 li{
+	display:block;
+	height:35px;
+	/* border:1px solid green; */
+	font-size:14px;
+	padding-right:2px;
+	
+	
+}
+
+
+
+#nivo0 a{
+	display:block;
+	height:21px;
+	/* background-color:rgba(255,255,255,0.1); */
+	text-decoration:none;
+	padding:7px 15px 7px 15px;
+	margin: -1px auto;
+	/* border:1px solid yellow; */
+	color:black;
+	text-shadow:1px 1px 5px white;
+	
+}
+#nivo0 a:hover{
+
+	background-color:rgba(255,255,255,0.7);
+	color:black;
+	transition:all 0.1s ease-out;
+	
+}
+
+
+
+.nivoDiv{
+	position:absolute;
+	width:auto;
+	height:auto;
+	margin:0 auto;
+	margin-top:36px;
+	box-shadow:0px 5px 15px black;
+	z-index:99999;
+	/* border:1px solid yellow;	 */
+}
+.nivoDiv li{
+	
+}
+.nivoDiv a{
+	width:200px;
+	height:200px;
+	margin:0 auto;
+	color:blue;
+	
+	/* border:1px solid yellow; */
+}
+
+.slika{
+	/* border:1px solid yellow; */
+	width:125px;
+	height:125px;
+	margin:0 auto;
+}
+
+.nivo1-box {
+	display:block;
+	 border:1px solid black;
+	
+	width:200px;
+	height:200px;
+	float:left;
+	text-align:center;
+	background-image:url(slike/pozadina6.png);
+	background-color:gray;
+}
+.nivo1-box li{
+	
+}
+
+.nivo1-box li:hover{
+	
+}
+.nivo1-box a{
+	
+}
+
+#nivo #nivo2{
+	border:1px solid red;
+}
+
+#nivo2 .slika{
+	
+	margin-top:40px;
+}
+#nivo2 .slika a{
+	/* border:1px solid yellow; */
+	width:160px;
+	height:200px;
+	
+}
+
+#nivo2 li{
+	font-size:12px;
+	
+	
+}
+#nivo0 #nivo2 li{
+	width:160px;
+	height:15px;
+	margin:0 auto;
+	text-align:center;
+	
+	
+}
+#nivo0 #nivo2 a{
+	padding-bottom:10px;
+	display:block;
+	text-decoration:none;
+	margin:0 auto;
+	width:160px;
+	height:15px;
+	background-image:url(slike/menu4.png);
+	color:black;
+	
+	}
+#nivo0 #nivo2 a:hover{
+	background-color:black;
+	color:white;
+}
+
+/*-----------------------------H E A D E R-----K R A J---------------------------------*/
+
+/*----------------------------------S R E D I N A---------------------------------*/
+
+#sajt_sredina{
+	position:relative;
+	width:1000px;
+	min-height:800px;
+	margin:0 auto;
+	top:275px;
+	
+	/* border:1px solid black; */
+	background-image:url(slike/pentagon.jpg);
+	/* box-shadow:0px 0px 35px black; */
+	
+}
+#sajt_sredina_komponente{
+	position:relative;
+	width:1000px;
+	padding-top:50px;
+	padding-bottom:50px;
+	min-height:800px;
+	margin:0 auto;
+	top:275px;
+	
+	/* border:1px solid black; */
+	background-image:url(slike/pozadina6.png);
+	box-shadow:0px 0px 35px black;
+	
+}
+
+
+#sajt_sredina_gore{
+	position:relative;
+	width:1000px;
+	height:300px;
+	margin:0 auto;
+	/* border:1px solid black; */
+	box-shadow:0px 5px 15px black;
+	
+}
+
+#sajt_sredina_ostalo{
+	position:relative;
+	bottom:50px;
+	width:1000px;
+	margin:0 auto;
+	top:20px;
+}
+
+
+#sajt_levo{
+	position:relative;
+	/* border:1px solid red; */
+	height:500px;
+	width:300px;
+	float:left;
+	box-shadow:10px 0px 15px black;
+	background-image:url(slike/metal1.png);
+	
+}
+
+#naslov_slike{
+	background-image:url(slike/pentagon.png);
+	color:black;
+	text-transform:uppercase;
+	font-size:20px;
+	text-align:center;
+}
+#ocenjivanje_slika_sve{
+	
+	width:700px;
+	margin:60px auto;
+	text-align:center;
+}
+
+#slika_za_ocenjivanje{
+	width:600px;
+	margin:0 auto;
+	/* border:1px solid black; */
+}
+
+#slika_za_ocenjivanje img{
+	width:600px;
+	margin:0 auto;
+	box-shadow:0px 0px 25px black;
+}
+
+#opis_slike{
+	/* border:1px solid red; */
+	margin-top:15px;
+	padding-top:1px;
+	padding-bottom:1px;
+	/* border-radius:15px; */
+	box-shadow:0px 0px 5px black;
+	background-color:rgba(0,0,0,0.7);
+	text-shadow:0px 0px 15px black;
+	color:white;
+}
+
+
+#ocenjivanje_slika_dole{
+	display:inline-table;
+	width:600px;
+	margin:5px auto;
+	text-align:center;
+	background-image:url(slike/metal1.png);
+	box-shadow:0px 0px 15px black;
+	z-index:10;
+	border-radius:15px;
+	
+	
+}
+
+#tabela_oceni{
+	height:20px;
+	
+}
+
+.oceni{
+	background-color:green;
+	font-size:16px;
+	text-shadow:0px 0px 15px black;
+	font-family:verdana;
+	color:white;
+	border:none;
+	box-shadow:0px 0px 20px black;
+	
+}
+
+.preskoci{
+	background-color:red;
+	font-size:16px;
+	text-shadow:0px 0px 15px black;
+	font-family:verdana;
+	color:white;
+	border:none;
+	box-shadow:0px 0px 20px black;
+}
+
+#tabela_oceni_levo{
+	float:left;
+	
+	padding-left:5px;
+}
+
+#tabela_oceni_desno{
+	float:right;
+	margin-left:255px;
+	
+}
+
+#status{
+	
+	margin-bottom:50px;
+	
+}
+
+#rezultat_ocenjivanja{
+	/* border:1px solid black; */
+	background-image:url(slike/metal1.png);
+	box-shadow:0px 0px 15px black;
+	z-index:10;
+	
+	width:600px;
+	margin:0px auto;
+}
+
+
+#anketa{
+	/* border:1px solid black; */
+	background-image:transparent;
+	width:299px;
+}
+.nivo2-box {
+	background-image:url(slike/pozadina6.png);
+    clear: both;
+    float: left;
+    width: 140px;
+	text-align : center;
+    z-index: 100;
+}
+.nivo2-box a{
+	width: auto !important;
+}
+.nivo2-box a:hover{
+	background-image:url(slike/metal1.png);
+}
+#anketa-tabela{
+	/* border:1px solid green; */
+	width:200px;
+	background-image:url(slike/pozadina6.png);
+	box-shadow:0px 0px 45px black;
+	margin:40% auto;
+	
+}
+.naslov{
+	background-color:rgba(0,0,0,0.6);
+	color:white;
+	font-size:15px;
+	text-align:center;
+}
+
+.radioB{
+	font-size:12px;
+	color:black;
+	
+}
+
+.dugmici_anketa{
+	background-color:rgba(0,0,0,0.6);
+	color:white;
+	font-size:12px;
+	
+}
+
+#kontakt_sve{
+	/* border:1px solid black; */
+	width:600px;
+	margin:0 auto;
+}
+
+#paznja{
+	border:1px solid black;
+	width:500px;
+	margin:0 auto;
+	padding-bottom:10px;
+	box-shadow:0px 10px 15px black;
+	
+}
+#paznja a{
+	text-decoration:none;
+	color:red;
+}
+
+#tabela_kontakt{
+	padding-top:50px;
+}
+
+#tabela_kontakt th{
+	color:black;
+	font-weight:normal;
+	font-size:16px;
+	
+}
+
+#tabela_kontakt td{
+
+}
+
+
+
+#sajt_desno{
+	position:relative;
+	/* border:2px solid green; */
+	width:680px;
+	
+	text-align:center;
+	float:right;
+	overflow:hidden;
+	background-image:url(slike/pozadina6.png);
+	box-shadow:-10px 0px 15px black;
+}
+
+.sadrzaj_naslov{
+	background-image:url(slike/pentagon.png);
+	color:black;
+	text-align:center;
+	text-transform:uppercase;
+	font-size:22px;
+}
+
+#o_autoru{
+	/* border:1px solid green; */
+	width:650px;
+	padding-bottom:50px;
+	margin:0 auto;
+	font-family:Segoe UI;
+}
+
+#autor_header{
+	margin:0 auto;
+	/* border:1px solid black; */
+	width:600px;
+	height:200px;
+	padding-bottom:20px;
+}
+.ime_autor{
+	font-size:20px;
+	background-color:red;
+	color:white;
+	font-weight:normal;
+	
+}
+
+
+.tekst{
+	text-align:justify;
+	padding:5px 50px;
+}
+.tekst2{
+	text-align:justify;
+	padding:5px 50px;
+	font-size:14px;
+	width:500px;
+	/* border:1px solid green; */
+	margin:0 auto;
+}
+
+.tekst2 a{
+	text-decoration:none;
+	color:red;
+}
+
+#stranicenje_brojevi{
+	/* border:1px solid black; */
+	width:200px;
+	margin:20px auto;
+	
+}
+#stranicenje_brojevi a{
+	text-decoration:none;
+	padding-left:10px;
+	font-size:18px;
+	font-weight:normal;
+}
+
+
+
+.tabela_procesora {
+    float: left;
+    position: relative;
+	height:150px;
+    width: 150px;
+}
+
+.komponenta{
+	width:150px;
+	min-height:150px;
+	
+	margin-left:5px;
+	margin-right:5px;
+	margin-top:2px;
+	    
+	display: inline-table;
+	padding:0px;
+}
+.komponenta img{
+	width:150px;
+	height:113px;
+	float:right;
+	box-shadow:0px 0px 15px black;
+	/* border:1px solid black; */
+}
+
+.tabela_procesora tbody{
+	width:150px;
+}
+
+
+.tabela_procesora td{
+	background-color:white;
+	width:75px;
+}
+.tabela_procesora th{
+	background-color:rgba(0,0,0,0.6);
+	color:white;
+	font-weight:normal;
+	width:75px;
+}
+
+#levo{
+	
+	width:240px;
+	float:left;
+	font-size:12px;
+}
+
+.tabela_levo{
+	display:block;
+	border:1px solid black;
+	width:200px;
+	
+	float:left;
+	font-size:12px;
+	
+}
+
+.tabela_levo th{
+	padding-top:10px;
+	padding-bottom:10px;
+	
+	text-align:center;
+}
+.tabela_levo2{
+	display:block;
+	
+	float:left;
+	font-size:12px;
+	
+}
+
+
+#desno{
+	border:2px solid green;
+	width:740px;
+	float:right;
+	
+}
+
+#blok{
+	/* border:2px solid red; */
+	width:700px;
+	float:right;
+	margin-right:5px;
+	padding-top:25px;
+	padding-left:15px;
+	padding-right:15px;
+	padding-bottom:50px;
+	
+}
+
+
+
+/*--------------------------S R E D I N A---K R A J------------------------------*/
+
+/*-------------------------------F O O T E R-----------------------------------*/
+
+#sajt_dole{
+	position:relative;
+	top:350px;
+	
+	/* border:1px solid green; */
+	height:220px;
+	width:99%;
+	margin:0 0.5%;
+	overflow:hidden;
+	background-image:url(slike/pozadina2.jpg);
+	box-shadow:0px -20px 35px black;
+}
+
+#footer{
+	
+	
+	width:1000px;
+	margin:0 auto;
+	bottom:0px;
+	color:white;
+	height:220px;
+}
+
+.footer_ul{
+	width:240px;
+	
+	list-style-type:none;
+	padding:10px;
+}
+
+#footer_sadrzaj{
+	
+	
+	width:900px;
+	margin:0 auto;
+	height:170px;
+	/* border:1px solid green; */
+	box-shadow:0px -5px 25px black;
+	background-image:url(slike/pentagon.png);
+	top:80px;
+	border-radius:0px 0px 10px 10px;
+	margin-left:50px;
+	
+	list-style-type:none;
+}
+#footer_sadrzaj_tekst{
+	margin:0 auto;
+	display:flex;
+	width:570px;
+	height:170px;
+	text-transform:uppercase;
+	text-align:center;
+	/* border:1px solid red; */
+	color:black;
+	font-size:12px;
+}
+#footer_sadrzaj_tekst .linkovi{
+	box-shadow:0px 0px 10px black;
+	width:190px;
+	height:170px;
+	text-shadow:0px 0px 20px black;
+	text-align:center;
+	text-transform:uppercase;
+}
+
+#footer_autor{
+	width:280px;
+	height:30px;
+	padding-top:10px;
+	margin-top:20px;
+	margin:0 auto;
+	
+}
+
+#footer_autor h1{
+	
+	
+	color:white;
+	font-size:14px;
+	bottom:2px;
+}
+#footer_autor a{
+	
+	
+	color:red;
+	font-size:14px;
+	bottom:2px;
+	text-decoration:none;
+}
+
+/*----------------------------F O O T E R---K R A J--------------------------------*/

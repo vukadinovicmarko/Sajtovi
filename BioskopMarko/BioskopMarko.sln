@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BioskopMarko", "BioskopMarko\BioskopMarko.csproj", "{4956A3F2-30F6-406E-80F3-C3D1DBF89AD9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MilankovDeo", "MilankovDeo\MilankovDeo.csproj", "{72DB47CF-5CD5-4F42-BBC9-D44F4DD77811}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4956A3F2-30F6-406E-80F3-C3D1DBF89AD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4956A3F2-30F6-406E-80F3-C3D1DBF89AD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4956A3F2-30F6-406E-80F3-C3D1DBF89AD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4956A3F2-30F6-406E-80F3-C3D1DBF89AD9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72DB47CF-5CD5-4F42-BBC9-D44F4DD77811}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72DB47CF-5CD5-4F42-BBC9-D44F4DD77811}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72DB47CF-5CD5-4F42-BBC9-D44F4DD77811}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72DB47CF-5CD5-4F42-BBC9-D44F4DD77811}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

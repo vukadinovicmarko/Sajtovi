@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Sobe>
+	<Soba>
+		<tip>dvokrevetna</tip>
+		<pogled>da</pogled>
+		<WiFi>da</WiFi>
+		<url>http://markohotel.byethost8.com/sadrzaj/dvokrevetne.html</url>
+	</Soba>
+	<Soba>
+		<tip>junior</tip>
+		<pogled>ne</pogled>
+		<WiFi>da</WiFi>
+		<url>http://markohotel.byethost8.com/sadrzaj/junior.html</url>
+	</Soba>
+	<Soba>
+		<tip>senior</tip>
+		<pogled>da</pogled>
+		<WiFi>da</WiFi>
+		<url>http://markohotel.byethost8.com/sadrzaj/senior.html</url>
+	</Soba>
+	
+</Sobe>

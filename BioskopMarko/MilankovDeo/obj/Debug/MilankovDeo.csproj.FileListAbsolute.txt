@@ -1,0 +1,7 @@
+F:\Marko\Trenutno\Documents\Visual Studio 2013\Projects\BioskopMarko\MilankovDeo\bin\Debug\EntityFramework.dll
+F:\Marko\Trenutno\Documents\Visual Studio 2013\Projects\BioskopMarko\MilankovDeo\bin\Debug\EntityFramework.xml
+F:\Marko\Trenutno\Documents\Visual Studio 2013\Projects\BioskopMarko\MilankovDeo\obj\Debug\MilankovDeo.dll
+F:\Marko\Trenutno\Documents\Visual Studio 2013\Projects\BioskopMarko\MilankovDeo\obj\Debug\MilankovDeo.pdb
+F:\Marko\Trenutno\Documents\Visual Studio 2013\Projects\BioskopMarko\MilankovDeo\bin\Debug\MilankovDeo.dll.config
+F:\Marko\Trenutno\Documents\Visual Studio 2013\Projects\BioskopMarko\MilankovDeo\bin\Debug\MilankovDeo.dll
+F:\Marko\Trenutno\Documents\Visual Studio 2013\Projects\BioskopMarko\MilankovDeo\bin\Debug\MilankovDeo.pdb

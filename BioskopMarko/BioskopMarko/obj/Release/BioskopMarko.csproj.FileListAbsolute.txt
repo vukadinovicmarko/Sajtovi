@@ -1,0 +1,20 @@
+f:\marko\trenutno\documents\visual studio 2013\Projects\BioskopMarko\BioskopMarko\bin\BioskopMarko.dll.config
+f:\marko\trenutno\documents\visual studio 2013\Projects\BioskopMarko\BioskopMarko\bin\BioskopMarko.dll
+f:\marko\trenutno\documents\visual studio 2013\Projects\BioskopMarko\BioskopMarko\bin\BioskopMarko.pdb
+f:\marko\trenutno\documents\visual studio 2013\Projects\BioskopMarko\BioskopMarko\bin\MilankovDeo.dll
+f:\marko\trenutno\documents\visual studio 2013\Projects\BioskopMarko\BioskopMarko\bin\EntityFramework.dll
+f:\marko\trenutno\documents\visual studio 2013\Projects\BioskopMarko\BioskopMarko\bin\MilankovDeo.pdb
+f:\marko\trenutno\documents\visual studio 2013\Projects\BioskopMarko\BioskopMarko\bin\EntityFramework.xml
+f:\marko\trenutno\documents\visual studio 2013\Projects\BioskopMarko\BioskopMarko\obj\Release\BioskopMarko.csprojResolveAssemblyReference.cache
+f:\marko\trenutno\documents\visual studio 2013\Projects\BioskopMarko\BioskopMarko\obj\Release\BioskopMarko.dll
+f:\marko\trenutno\documents\visual studio 2013\Projects\BioskopMarko\BioskopMarko\obj\Release\BioskopMarko.pdb
+H:\Posao\Git\Sajtovi\BioskopMarko\BioskopMarko\bin\BioskopMarko.dll.config
+H:\Posao\Git\Sajtovi\BioskopMarko\BioskopMarko\bin\BioskopMarko.dll
+H:\Posao\Git\Sajtovi\BioskopMarko\BioskopMarko\bin\BioskopMarko.pdb
+H:\Posao\Git\Sajtovi\BioskopMarko\BioskopMarko\bin\MilankovDeo.dll
+H:\Posao\Git\Sajtovi\BioskopMarko\BioskopMarko\bin\EntityFramework.dll
+H:\Posao\Git\Sajtovi\BioskopMarko\BioskopMarko\bin\MilankovDeo.pdb
+H:\Posao\Git\Sajtovi\BioskopMarko\BioskopMarko\bin\EntityFramework.xml
+H:\Posao\Git\Sajtovi\BioskopMarko\BioskopMarko\obj\Release\BioskopMarko.csprojResolveAssemblyReference.cache
+H:\Posao\Git\Sajtovi\BioskopMarko\BioskopMarko\obj\Release\BioskopMarko.dll
+H:\Posao\Git\Sajtovi\BioskopMarko\BioskopMarko\obj\Release\BioskopMarko.pdb

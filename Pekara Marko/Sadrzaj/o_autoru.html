@@ -1,0 +1,159 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+	<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Pekara Marko |O autoru</title>
+	<meta http-equiv="content-Type" content="text/html; charset=utf-8">
+	<meta name="keywords" content="Pekara,marko,Marko,Pekara marko,Pekara Marko,Hleb,Kolaci,Nasa Peciva,Peciva,Nasi kolaci,kontakt, pekara kontakt, pekara lokacija, pekara marko lokacija, marko pekara lokacija,pekara beograd,pekara pravi izbor,izbor,pravi izbor,Vasa pekara marko"/>
+	<meta name="description" content="Jedina pekara u ovom delu grada koja proizvodi hleb i ostale proizvode od brašna na zdrav način"/>
+	<link rel="icon" href="../Slike/favicon.ico" type="image/x-icon"/>
+	<link rel="shortcut icon" href="../Slike/favicon.ico" type="image/x-icon">
+	<link href="../CSS/pekara.css" rel="stylesheet" type="text/css"/>
+	<script language="javascript" type="text/javascript">
+							function prikazi () 
+							{
+								var podmeni = document.getElementById("podmeni");
+								podmeni.style.display = "block";
+							}
+							function sakri ()
+							{
+								var podmeni = document.getElementById("podmeni");
+								podmeni.style.display = "none";
+							}
+							function validateOnSubmit(form)
+												{
+													if (isEMail(form.email)) 
+													{
+														{
+															return true;
+														}
+													}
+													return false;
+												}
+						
+							
+							/*-------------------------------------Validacija E-maila-------------------------------------*/
+							
+							function isEMail(vfld) 
+							{
+								var elem = document.getElementById('info_email');
+								var str = vfld.value;
+								var re = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+								if (!str.match(re)) 
+								{
+									elem.innerHTML = "Neispravan format e-mail adrese.";
+									elem.className = "error";
+									vfld.focus();
+									return false;
+								}
+								else 
+								{
+									elem.innerHTML = "Pravilan e-mail";
+									return true;
+								}
+							}
+							
+							
+							function validacija()
+							{
+								
+								var invalid = " "; // Invalid character is a space
+								var minLength = 1; // Minimum length
+								var re = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+								var error = "";
+								var pw1 = document.myForm.password.value;
+								var pw6 = document.myForm.email.value;
+								
+								// check for minimum length
+								if (!pw6.match(re)) 
+									{
+										alert("Neispravan format e-mail adrese.");
+										return false;
+									}
+								else
+								{
+								if (pw1 == "") {
+									alert("Molimo ukucajte Vasu lozinku.");
+									return false;
+								 }
+								
+									else
+									{
+										
+										return true;
+									}
+								
+							    }
+							}
+	</script>
+	</head>
+	<body >
+	<div id="baner"></div>
+		<div id="header">
+			<!-- <hr  color="#F7B800" align="center" size="5"/> -->
+			<h1 align="center" class="h1">PEKARA MARKO</h1>
+			<hr color="black" align="center" size="1" width="450"/>
+			<h2 align="center" class="h2">PRAVI IZBOR</h2>
+			<!-- <hr  color="#F7B800" align="center" size="5"/> -->
+		</div>
+		<div id="navigacija" align="center">
+			<ul id="navigacionimeni" align="center">
+				<li><a href="../index.html" class="box">NASLOVNA</a></li>
+				<li>
+					<a href="onama.html" onmouseover="prikazi();" onmouseout="sakri();" id='onama' class="box">O NAMA</a>
+					<ul id='podmeni' onmouseover="prikazi();" onmouseout="sakri();">
+						<li>
+							<a href='kontakt.html' class="box" style='padding:5px 20px;margin:0px;'>KONTAKT</a>
+						</li>
+					</ul>
+				</li>
+				<li><a href="proizvodi.html" class="box">NAŠI PROIZVODI</a></li>
+				<li><a href="o_autoru.html" class="box5">O AUTORU</a></li>
+			</ul>
+		</div>
+	<div id="content2" align="center">
+		<p class="onama" align="justify">Student <a href="http://www.ict.edu.rs" target="_blank">ICT</a> (Visoka škola strukovnih studija za informacione i komunikacione tehnologije) u Beogradu, Marko Vukadinović, broj indeksa 117/13, sa ponosom je napravio ovaj sajt, budući da ne zna mnogo šta o webdesign-u.</p>
+		<p class="onama" align="justify">Za Više informacija o studentu, posetite: </p></br>
+		<div id="facebook">
+			<a href="http://www.facebook.com/m4r3ja" target="_blank"><img src="../Slike/facebook-logo1.jpg" height="50" width="160"></img></a>
+		</div>
+		<div id="twitter">
+			<a href="http://www.twitter.com/m4r3ja" target="_blank"><img src="../Slike/twitter-logo.png" height="50" width="140"></img></a>
+		</div>
+		
+	</div>
+	
+	<div id="footer">
+			<div id="content_footer">
+				<div id="navigacija_footer" align="center">
+					<ul id="navigacionimeni_footer" align="center">
+						<li><a href="../index.html" class="box2">NASLOVNA</a></li>
+						<li><a href="onama.html" class="box2" >O NAMA</a></li>
+						<li><a href="kontakt.html" class="box2">LOKACIJA</a></li>
+					</ul>
+				</div>
+				<hr color="white" size="2" align="center" width="550px"/>
+				<div id="adresa">
+					<p class="rights" align="center">Pekara Marko, Ulica Izmišljenih Heroja 1, Beograd</p>
+				</div>
+				<div id="fejs">
+					<a href="http://www.facebook.com/m4r3ja" target="_blank"><img src="../Slike/facebook3.png"  width="35px"
+					onmouseover="this.src='../Slike/facebook4.png'"
+					onmouseout="this.src='../Slike/facebook3.png'"/></img></a>
+				</div>
+				<div id="tube">
+					<a href="http://www.youtube.com/m4r3ja" target="_blank"><img src="../Slike/youtube11.png"  width="35px"
+					onmouseover="this.src='../Slike/youtube3.png'"
+					onmouseout="this.src='../Slike/youtube11.png'"/></img></a>
+				</div>
+				<div id="autor">
+					<p class="rights">WEBSITE CREATED BY: <a href="../Sadrzaj/o_autoru.html" style="text-decoration:none;color:black";>Marko Vukadinović</a></p>
+				</div>
+			</div>
+				
+	</div>
+	</body>
+	
+	
+</html>

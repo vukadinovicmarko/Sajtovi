@@ -1,0 +1,10 @@
+F:\Marko\Trenutno\Documents\Visual Studio 2013\Projects\BioskopMarko\BioskopMarko\obj\Debug\BioskopMarko.csprojResolveAssemblyReference.cache
+F:\Marko\Trenutno\Documents\Visual Studio 2013\Projects\BioskopMarko\BioskopMarko\bin\BioskopMarko.dll.config
+F:\Marko\Trenutno\Documents\Visual Studio 2013\Projects\BioskopMarko\BioskopMarko\bin\BioskopMarko.dll
+F:\Marko\Trenutno\Documents\Visual Studio 2013\Projects\BioskopMarko\BioskopMarko\bin\BioskopMarko.pdb
+F:\Marko\Trenutno\Documents\Visual Studio 2013\Projects\BioskopMarko\BioskopMarko\bin\MilankovDeo.dll
+F:\Marko\Trenutno\Documents\Visual Studio 2013\Projects\BioskopMarko\BioskopMarko\bin\EntityFramework.dll
+F:\Marko\Trenutno\Documents\Visual Studio 2013\Projects\BioskopMarko\BioskopMarko\bin\MilankovDeo.pdb
+F:\Marko\Trenutno\Documents\Visual Studio 2013\Projects\BioskopMarko\BioskopMarko\bin\EntityFramework.xml
+F:\Marko\Trenutno\Documents\Visual Studio 2013\Projects\BioskopMarko\BioskopMarko\obj\Debug\BioskopMarko.dll
+F:\Marko\Trenutno\Documents\Visual Studio 2013\Projects\BioskopMarko\BioskopMarko\obj\Debug\BioskopMarko.pdb

@@ -1,0 +1,227 @@
+﻿<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<title>Hotel Marko</title>
+	<meta http-equiv="content-Type" content="text/html; charset=utf-8">
+<!-- ***************>Keywords</!-->	
+	<meta name="keywords" content="Hotel,marko,Marko,Hotel marko,hotel Marko,Sobe,Apartmani,smestaj,smeštaj, soba, apartman, junior,senior, beograd,Beograd, hotel lokacija, marko hotel,hoteli,pet zvezdica, hotel sa pet zvezdica, hotel kontakt, besplatan Wi-FI,hotel besplatan internet'"/>
+<!-- ***************>Opis</!-->	
+	<meta name="description" content="Najbolji hotel u gradu,hotel Marko, sa pet zvezdica"/>
+<!-- ***************></!-->	
+	<link rel="icon" href="slike/favicon.ico" type="image/x-icon"/>
+	<link rel="shortcut icon" href="slike/favicon.ico" type="image/x-icon">
+<!-- ***************></!-->	
+	<link rel="stylesheet" type="text/css" href="css/stil.css"/>
+	<script type="text/javascript"  src="javascript/jquery-2.1.3.min.js"></script>
+	<script type="text/javascript"  src="javascript/javascript.js"></script>
+	<script type="text/javascript"  src="javascript/jquery.js"></script>
+	<script type="text/javascript" src="pretraga.js"></script>
+</head>
+<body onLoad="timer();">
+	<div id="omot">
+		<div id="omotgore">
+			<div id="zaglavlje">
+				<a href="index.html"><div id="logo">
+				
+					<!-- <h1><a href="#">Hotel "Marko" 5*</a></h1> -->
+					<!-- <h2><a href="#">Najbolji hotel u Beogradu</a></h2> -->
+				</div></a>
+				<div id="zaglavlje_desno">
+					<div id="logo2">
+						<form name="signin">
+							<tr>
+								<td>
+									<input type="text" placeholder="Nadimak" id="tKorisnickoIme"></input>
+									<input type="password" placeholder="Šifra" id="tSifra"></input>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<input type="button" value="Prijavi se" id="prijavi" class="dugme" onClick="prijavise();"></input>
+								</td>
+							</tr>
+						</form>
+						<p>Niste registrovani? Registrujte se <a href="sadrzaj/registracija.html">ovde</a></p>
+						
+					</div>
+					
+				</div>
+				<div class="ocisti"></div>
+			</div>
+			<div id="meni">
+				<ul id="nav_meni">
+					<li class="aktivan"><a href="index.html">Početna strana</a></li>
+					<li ><a href="sadrzaj/smestaj.html" onMouseOver="prikazi();" onMouseOut="sakrij();" >Smeštaj</a></li>
+					<ul id="podmeni" onMouseOver="prikazi();" onMouseOut="sakrij();" >
+							<li><a href="sadrzaj/dvokrevetne.html" style="width:115px;">dvokrevetne Sobe</a></li>
+							<li><a href="sadrzaj/junior.html" style="width:115px;">junior Apartmani</a></li>
+							<li><a href="sadrzaj/senior.html" style="width:115px;">senior apartmani</a></li>
+						</ul>
+					<li ><a href="sadrzaj/galerija.html">Galerija</a></li>
+					
+					<li ><a href="sadrzaj/kontakt.html">Kontakt</a></li>
+					
+					<li ><a href="sadrzaj/autor.html">O Autoru</a></li>
+				</ul>
+			</div>
+			
+		</div>
+		<div class="deoSlika">
+			<div id="zaglavlje_slika">
+					<img src="slike/slideshow/slika01.jpg" width="900px" height="355px" name="slika" id="slika" alt="" onMouseOver="zaustavi()" onMouseOut="timer()" />
+			</div>
+		</div>
+		<div class="bla">
+			<h2>Najbolji hotel u gradu</h2>
+		</div>
+		
+		<div id="strana">
+			<div id="strana_omot">
+				<div id = "izmedju">
+					<div class="izmedju-blok">
+						<div class="izmedju-slika">
+							<img src="slike/wifi.png"></img>
+						</div>
+						<div class="izmedju-tekst">
+							<p>Besplatan Wi-Fi</p>
+						</div>
+					</div>	
+					<div class="izmedju-blok">
+						<div class="izmedju-slika">
+							<img src="slike/lampa.png"></img>
+						</div>
+						<div class="izmedju-tekst">
+							<p>Kompletno opremljeno</p>
+						</div>
+					</div>
+					<div class="izmedju-blok">
+						<div class="izmedju-slika">
+							<img src="slike/parking.png"></img>
+						</div>
+						<div class="izmedju-tekst">
+							<p>Besplatan parking</p>
+						</div>
+					</div>
+					<div class="izmedju-blok">
+						<div class="izmedju-slika">
+							<img src="slike/ciscenje.png"></img>
+						</div>
+						<div class="izmedju-tekst">
+							<p>Usluge čišćenja</p>
+						</div>
+					</div>
+					<div class="izmedju-blok">
+						<div class="izmedju-slika">
+							<img src="slike/avion.png"></img>
+						</div>
+						<div class="izmedju-tekst">
+							<p>Prevoz sa aerordroma</p>
+						</div>
+					</div>
+				</div>
+				<!-- <hr width="900"></hr> -->
+				<div id="sadrzaj">
+					<div class="tekst1">
+							<h2 class="naslov">DOBRODOŠLI!</h2>
+							
+							<div class="unos">
+								<p>Hotel Marko, jedan od najvećih hotela u Beogradu, izgrađen je 1500. godine. 2015. godine hotel je komplentno renoviran, tako da mu se danas na enterijeru, udobnosti i funkcionalnosti može pozavideti. Hotel Marko kategorisan je sa pet zvezdica i nalazi se u naselju Markograd u neposrednoj blizini istoimenog parka u ulici Marko. Umirujući i prijatan kraj će vam se odmah dopasti.</p></br><p>Ono što lokaciju čini još atraktivnijom je blizina auto-puta, što olakšava dolazak do hotela a ujedno omogućava dobru povezanost sa sajmom, aerodromom, beogradskom arenom, i ostalim lokacijama. Želimo Vam prijatan boravak.</p></br>
+							
+							</div>
+							<!-- <div class="meta">
+								<p class="links"><a href="#" class = "broj_komentara"><br/>Komentari(32)</a></p>
+							</div> -->
+						
+						
+					</div>
+					
+					
+				</div>
+				 
+				<div class="leva_kolona1" >
+					<div id="pretraga">
+						<h2>Pretraga</h2>
+						<div id="pozicija_pretrage">
+							<form name="pretraga" method="get" action="">
+								
+									<input type="text" id="pretragaText" name="s" />
+									<input type="button" id="pretraga-submit"  value="Pretraga" class="dugme" onClick="pretragaa()"/>
+									<div id="rezultatPretraga"></div>
+							</form>
+						</div>
+						
+					</div>
+					<div id="anketa" onMouseOver="prosiriAnketa();" onMouseOut="sakrijAnketa();">
+						<h2 >Anketa</h2>
+						<div id="pozicija_tabele">
+							<form name="anketa" onsubmit="aanketa();">
+								<table id="anketa-tabela">
+									<tr>
+										<th colspan="2" class="naslov">Molimo, ocenite nas sajt</th>
+									</tr>
+									<tr>
+										<td class="leva_kolona">Ocena :</td>
+										<td class="radioB">
+											<input type="radio" name="rbOcena" id="rbLos" value="Los" class="radioB"/> LOS<br/><br/>
+											<input type="radio" name="rbOcena" id="rbNijeLos" value="Nije los" class="radioB"/> NIJE LOS<br/><br/>
+											<input type="radio" name="rbOcena" id="rbDobar" value="Dobar" class="radioB"/> DOBAR<br/><br/>
+											<input type="radio" name="rbOcena" id="rbVrloDobar" value="Vrlo dobar" class="radioB"/> VRLO DOBAR<br/><br/>
+											<input type="radio" name="rbOcena" id="rbOdlican" value="Odlican" class="radioB"/> ODLICAN<br/><br/>
+										</td>
+									</tr>
+									<tr>
+										<td colspan="2" align="center" class="dugmici_anketa">
+											<input type="submit" value="OCENI" class="dugme"/>
+											<input type="reset" value="PONISTI" class="dugme"/>
+										</td>
+									</tr>
+								</table>
+							</form>
+						</div>	
+					</div>
+				</div>
+				
+				<div class="ocisti"></div>
+				
+			</div>
+			
+			<footer>
+				<div id="footer">
+					<div id="footer-meni">
+						<ul>
+							<li ><a href="index.html">Početna strana</a></li>
+							<li ><a href="sadrzaj/smestaj.html">Apartmani i Sobe</a></li>
+							<li ><a href="sadrzaj/galerija.html">Galerija</a></li>
+							<li ><a href="sadrzaj/kontakt.html">Kontakt</a></li>
+							<li ><a href="sadrzaj/autor.html">AUTOR</a></li>
+							<li ><a href="sadrzaj/sitemap.html">Sitemap</a></li>
+							<li ><a href="dokumentacija/Dokumentacija.pdf">DOKUMENTACIJA</a></li>
+							
+						</ul>
+					</div>
+					<div id="subscribe">
+						<div id="fejs">
+						<a href="http://www.facebook.com/m4r3ja" target="_blank"><img src="slike/facebook3.png"  width="35px"
+						onmouseover="this.src='slike/facebook4.png'"
+						onmouseout="this.src='slike/facebook3.png'"/></img></a>
+					</div>
+					<div id="tube">
+						<a href="http://www.youtube.com/m4r3ja" target="_blank"><img src="slike/youtube11.png"  width="35px"
+						onmouseover="this.src='slike/youtube3.png'"
+						onmouseout="this.src='slike/youtube11.png'"/></img></a>
+					</div>
+						<div id="footer-rss">
+							<a href="rss/rss.xml"><img src="slike/rss.png" width="35" height="35"/></a>
+						</div>
+					</div>
+					<div class="autor">
+						WEBSITE CREATED BY : <a href="sadrzaj/autor.html">Marko Vukadinović</a>
+					</div>
+				</div>
+				
+			</footer>
+		</div>
+	</div>
+	
+</body>
+</html>

@@ -1,0 +1,265 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{72DB47CF-5CD5-4F42-BBC9-D44F4DD77811}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MilankovDeo</RootNamespace>
+    <AssemblyName>MilankovDeo</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.5.0.0\lib\net45\EntityFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BusinessLayer\OpAnketaBase.cs" />
+    <Compile Include="BusinessLayer\OpBioskopiBase.cs" />
+    <Compile Include="BusinessLayer\Operation.cs" />
+    <Compile Include="BusinessLayer\OperationManager.cs" />
+    <Compile Include="BusinessLayer\OperationObject.cs" />
+    <Compile Include="BusinessLayer\OpFilmoviBase.cs" />
+    <Compile Include="BusinessLayer\OpGalerijaBase.cs" />
+    <Compile Include="BusinessLayer\OpKontaktBase.cs" />
+    <Compile Include="BusinessLayer\OpKorisniciBase.cs" />
+    <Compile Include="BusinessLayer\OpMembershipBase.cs" />
+    <Compile Include="BusinessLayer\OpSlikeBase.cs" />
+    <Compile Include="BusinessLayer\OpStranaKontaktBase.cs" />
+    <Compile Include="BusinessLayer\OpUlogeBase.cs" />
+    <Compile Include="BusinessLayer\OpZanroviBase.cs" />
+    <Compile Include="Class1.cs" />
+    <Compile Include="DataLayer\ankete.cs">
+      <DependentUpon>ModelStudije.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataLayer\aspnet_Applications.cs">
+      <DependentUpon>ModelStudije.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataLayer\aspnet_Membership.cs">
+      <DependentUpon>ModelStudije.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataLayer\aspnet_Membership_GetPasswordWithFormat_Result.cs">
+      <DependentUpon>ModelStudije.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataLayer\aspnet_Membership_GetPassword_Result.cs">
+      <DependentUpon>ModelStudije.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataLayer\aspnet_Membership_GetUserByName_Result.cs">
+      <DependentUpon>ModelStudije.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataLayer\aspnet_Membership_GetUserByUserId_Result.cs">
+      <DependentUpon>ModelStudije.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataLayer\aspnet_Paths.cs">
+      <DependentUpon>ModelStudije.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataLayer\aspnet_PersonalizationAllUsers.cs">
+      <DependentUpon>ModelStudije.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataLayer\aspnet_PersonalizationPerUser.cs">
+      <DependentUpon>ModelStudije.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataLayer\aspnet_Profile.cs">
+      <DependentUpon>ModelStudije.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataLayer\aspnet_Profile_GetProperties_Result.cs">
+      <DependentUpon>ModelStudije.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataLayer\aspnet_Roles.cs">
+      <DependentUpon>ModelStudije.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataLayer\aspnet_SchemaVersions.cs">
+      <DependentUpon>ModelStudije.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataLayer\aspnet_Users.cs">
+      <DependentUpon>ModelStudije.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataLayer\aspnet_UsersInRoles_RemoveUsersFromRoles_Result.cs">
+      <DependentUpon>ModelStudije.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataLayer\aspnet_WebEvent_Events.cs">
+      <DependentUpon>ModelStudije.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataLayer\Bioskopi.cs">
+      <DependentUpon>ModelStudije.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataLayer\Filmovi.cs">
+      <DependentUpon>ModelStudije.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataLayer\Galerija.cs">
+      <DependentUpon>ModelStudije.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataLayer\ModelStudije.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ModelStudije.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataLayer\ModelStudije.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ModelStudije.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataLayer\ModelStudije.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ModelStudije.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="DataLayer\Poruke.cs">
+      <DependentUpon>ModelStudije.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataLayer\SelectFilmoviWhereId_Result.cs">
+      <DependentUpon>ModelStudije.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataLayer\SelectKorisnikDodatno_Result.cs">
+      <DependentUpon>ModelStudije.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataLayer\Slike.cs">
+      <DependentUpon>ModelStudije.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataLayer\SlikeStranicenje_Result.cs">
+      <DependentUpon>ModelStudije.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataLayer\stavke.cs">
+      <DependentUpon>ModelStudije.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataLayer\StranaKontakt.cs">
+      <DependentUpon>ModelStudije.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataLayer\vw_aspnet_Applications.cs">
+      <DependentUpon>ModelStudije.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataLayer\vw_aspnet_MembershipUsers.cs">
+      <DependentUpon>ModelStudije.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataLayer\vw_aspnet_Profiles.cs">
+      <DependentUpon>ModelStudije.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataLayer\vw_aspnet_Roles.cs">
+      <DependentUpon>ModelStudije.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataLayer\vw_aspnet_Users.cs">
+      <DependentUpon>ModelStudije.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataLayer\vw_aspnet_UsersInRoles.cs">
+      <DependentUpon>ModelStudije.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataLayer\vw_aspnet_WebPartState_Paths.cs">
+      <DependentUpon>ModelStudije.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataLayer\vw_aspnet_WebPartState_Shared.cs">
+      <DependentUpon>ModelStudije.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataLayer\vw_aspnet_WebPartState_User.cs">
+      <DependentUpon>ModelStudije.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataLayer\Zanrovi.cs">
+      <DependentUpon>ModelStudije.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EntityDeploy Include="DataLayer\ModelStudije.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>ModelStudije.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.Config" />
+    <None Include="DataLayer\ModelStudije.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>ModelStudije.edmx</DependentUpon>
+      <LastGenOutput>ModelStudije.Context.cs</LastGenOutput>
+    </None>
+    <None Include="DataLayer\ModelStudije.edmx.diagram">
+      <DependentUpon>ModelStudije.edmx</DependentUpon>
+    </None>
+    <None Include="DataLayer\ModelStudije.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>ModelStudije.edmx</DependentUpon>
+      <LastGenOutput>ModelStudije.cs</LastGenOutput>
+    </None>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="aspLab2015.mdf" />
+    <Content Include="aspLab2015_log.ldf">
+      <DependentUpon>aspLab2015.mdf</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

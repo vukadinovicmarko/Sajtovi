@@ -1,0 +1,735 @@
+html{
+    font-family: Segoe UI;
+   max-width:100%;
+    
+}
+body{
+    margin:0 auto; 
+    background-image:url(../images/homePozadina/slika05.jpg); 
+    background-color: wheat;
+    background-repeat: no-repeat;
+    height: 100%;
+    max-width:100%;
+}
+
+
+.logo{
+    width:120px;
+    height:50px;
+    float:left;
+    background-image: url("../images/slika01.png");
+    background-size:contain;
+    text-align: center;
+    font-weight: bold;
+    margin-left:15px;
+    padding-top:0.6em;
+    padding-bottom:0.6em;
+    box-shadow:5px 0px 15px black;
+    margin-right:15px;
+    
+}
+.logo a{
+    text-decoration: none;
+    color:black;
+    width:120px;
+    height:50px;
+}
+
+.marginTop625p{
+    margin-top:6.25%;
+     
+}
+
+.logo-login{
+    box-shadow:0px 30px 145px black;
+    border-radius: 140px;
+    margin-top:120px;
+    margin-bottom: 100px;
+}
+
+.navbar-collapse{
+    
+}
+
+.header{
+    
+    background-color:#ffffff;
+    box-shadow:0px 0px 15px black;
+    z-index: 9999999;
+}
+
+#mainNavBar{
+    overflow:hidden;
+    margin-left:0px;
+    margin-right:0px;
+    /*height:50px;*/
+}
+.navbar-header{
+    /*height:50px;*/
+}
+
+.ul_menu li{
+    text-transform: uppercase;
+    font-size:14px;
+    z-index: 5;
+}
+.ul_menu a{
+    color:black;
+}
+
+.ul_menu a:hover{
+    transition: all 0.5s ease;
+    color:white;
+}
+.dropdown-menu li a{
+    background: linear-gradient(to bottom, #ffffff 50%, #128689 50%);
+    background-position:left top;
+    background-size: 100% 200%;
+    transition: all 0.5s ease;
+
+
+}
+.dropdown-menu li a:hover{
+     background-position:left bottom;
+
+    color:white;
+}
+.ul_menu li:not(.active){
+    color:white;
+    text-decoration: none;
+    padding-right:15px;
+    padding-left:15px;
+    background: linear-gradient(to bottom, #ffffff 50%, #128689 50%);
+    background-position:left top;
+    background-size: 100% 200%;
+    transition: all 0.5s ease;
+}
+.ul_menu li:hover:not(.active){
+    background-position:left bottom;
+    box-shadow: 0px 0px 20px black;
+    color:white;
+    
+}
+.kliknuto:hover{
+    background-position:left bottom;
+    box-shadow: 0px 0px 20px black;
+    color:white;
+    
+}
+
+
+.kliknuto {
+    background: linear-gradient(to bottom, #ffffff 50%, #128689 50%);
+    background-position:left top;
+    background-size: 100% 200%;
+    transition: all 0.5s ease;
+}
+.kliknuto:hover{
+    background-position:left bottom;
+    box-shadow: 0px 0px 20px black;
+    color:white;
+    
+}
+.kliknuto a:hover{
+    background-position:left bottom;
+    box-shadow: 0px 0px 20px black;
+    color:red;
+    
+}
+
+.kliknuto2 {
+    background: linear-gradient(to bottom, #8b2727 50%, white 50%);
+    background-position:left top;
+    color:white;
+    background-size: 100% 200%;
+    box-shadow: 0px 10px 15px black;
+    /*border-bottom:3px solid #e71818;*/
+}
+.kliknuto2:hover{
+    background-position:right top;
+    box-shadow: 0px 10px 25px black;
+    /*border-bottom:1px solid #e71818;*/
+}
+
+
+.container-fluid{
+    margin-left:0px;
+    margin-right:0px;
+    padding-left:0px;
+    padding-right:0px;
+    max-width:100%;
+    
+}
+.navbar-header{
+    
+}
+.navbar-right{
+    
+}
+
+
+#centar{
+/*    position:relative;
+    min-width:1000px;
+    width:60%;
+    min-height:300px;
+    height: auto;
+    !*border:2px solid #002166;*!
+    
+    padding:0.5%;*/
+  min-height: 1000px;
+  height: auto;
+  max-width:100%;
+  margin: 0 auto -150px;
+  
+  padding: 0 0 60px;
+}
+
+.centar_levo{
+    margin-bottom:3%;
+}
+
+
+
+.istaknuto{
+    position:relative;
+    width:100%;
+    
+    height:auto;
+    background-color: white;
+    overflow: hidden;
+    
+    box-shadow: 0px 5px 25px black;
+}
+.ul_istaknuto, .ul_istaknuto2{
+    background-color:white;
+    z-index: 5;
+    font-size:12px;
+    border-bottom:1px solid #002166;
+    text-transform: uppercase;
+    height:40px;
+    width:101%;
+    float:left;
+    padding-left:0;
+    padding-top:0;
+    margin-top:0;
+    margin-left:-1%;
+    /*border-bottom:1px solid red;*/
+    box-shadow: 0px 5px 10px black;
+}
+.ul_istaknuto a, .ul_istaknuto2 a{
+    color:black;
+}
+.ul_istaknuto li{
+    position:relative;
+    display:flex;
+    width:auto;
+    float:left;
+    padding:12px;
+    padding-left:4%;
+    padding-right:4%;
+    text-align: center;
+    
+    
+
+    
+}
+
+
+.ul_istaknuto2{
+    height:180px;
+}
+
+
+
+#istaknuto_sadrzaj, #istaknuto_sadrzaj2, #istaknuto_sadrzaj3{
+    width:100%;
+    height:auto;
+    margin:0 auto;
+    /*border:1px solid tan;*/
+    font-size:10px;
+    padding-top:5%;
+    margin-top:15%;
+    margin-right:0%;
+    background-color:rgb(245,245,245);
+    
+}
+#istaknuto_sadrzaj2{
+    display:none;
+}
+#istaknuto_sadrzaj3{
+    display:none;
+}
+.tabela{
+    position:relative;
+    width:100%;
+    font-size:13px;
+    
+    
+}
+
+.red{
+    color:red;
+}
+.green{
+    color:green;
+}
+.tabela td{
+        /*border-bottom: 1px solid #002166;*/
+}
+
+.centar_desno{
+/*    width:640px;
+    height:360px;*/
+    height:auto;
+    min-height:40%;
+    max-height: 50%;
+    /*border:1px solid black;*/
+    
+}
+.centar_desno img{
+    
+}
+.slika{
+    width:100%;
+    height:100%;
+    background-image:url(../images/homePozadina/slika01-720.jpg);
+    background-repeat: no-repeat;
+}
+.centar_levo_ostalo{
+    box-shadow: 20px 0px 25px black;
+    height:auto;
+}
+.centar_levo_ostalo, .centar_desno_ostalo{
+    background-color:white;
+    vertical-align: middle;
+
+    padding:15px;
+
+    margin-bottom: 100px;
+}
+.centar_desno_ostalo{
+    height:auto;
+    box-shadow: 0px 10px 15px black;
+}
+
+
+
+.home_slideshow{
+    
+  
+    
+    
+    
+    
+    
+    
+    /*border:1px solid black;*/
+    
+    box-shadow: 0px 0px 15px black;
+   
+}
+.home_slideshow img{
+    position:relative;
+    width:100%;
+    max-height:100%;
+    
+}
+
+.home_slideshow h3{
+    position:absolute;
+    height:50px;
+    z-index: 1;
+    background-color:#128689;
+    height: 35px;
+   
+}
+.home_slideshow h3 a{
+    color:white;
+    font-family:segoe ui;
+    text-decoration: none;
+}
+
+.onama_centar{
+    background-color:white;
+    min-height:500px;
+    height:auto;
+    padding:15px;
+}
+
+
+#footer{
+    position:relative;
+    width:100%;
+    height:200px;
+/*    border-top:1px solid lightgreen;*/
+    background-color:#128689;
+    box-shadow:0px -5px 10px black;
+    z-index: 2;
+    text-align:center;
+    margin:0 auto;
+    padding-top:25px;
+}
+.ocisti{
+    clear:both;
+}
+
+
+
+.administracija{
+    background-color: white;
+    color:red;
+}
+.activee{
+    background: linear-gradient(to bottom, white 50%,  #128689 50%);
+    background-position:left top;
+    background-size: 100% 200%;
+    color:white;
+    /*border-bottom:1px solid #002166;*/
+    transition: all 0.5s ease;
+}
+.activee:hover{
+    background-position:right bottom;
+    box-shadow: 0px 0px 10px black;
+    color:white;
+}
+
+
+#gore_levo{
+    background-color:white;
+    width:39%;
+    height:80%;
+    float:left;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    display:none
+}
+  
+
+
+#centar-admin{
+    height:1000px;
+    min-width:900px;
+    width:60%;
+    box-shadow: 0px 0px 15px black;
+    background-color:white;
+    
+    margin:3% auto;
+}
+.login_div{
+    
+    background-color:white;
+    margin-bottom:100px;
+    left:100px;
+    margin-top:120px;
+    z-index: 1;
+    padding:10px;
+    /*box-shadow: 0px 5px 10px black;*/
+    
+    
+}
+.login_div h4{
+    width:100%;
+
+ text-align: center;   
+}
+
+.login_div_okvir{
+    left:150px;
+}
+.reg_div_okvir{
+    margin-top:120px;
+    background-color: white;
+    padding-bottom: 30px;
+    padding-top: 10px;
+    margin-bottom:100px;
+}
+
+.marginTop20{
+    margin-top:20px;
+}
+
+.marginBottom80{
+    margin-bottom: 100px;
+}
+.minHeight800{
+    min-height: 80%;
+}
+
+.color-menu{
+    background-color:#ffffff;
+    
+    box-shadow:0px 0px 15px black;
+}
+
+.icon-bar{
+    background-color: blue;
+    
+}
+
+.marginTop5p{
+    margin-top:5%;
+}
+
+.centar-login{
+    max-width:100%;
+    
+}
+.error{
+    color:red;
+}
+.active a{
+    background-color:#128689;
+    color:white;
+}
+.nav>li>a:focus, .nav>li>a:hover{
+    background-color: rgba(0,0,0,0);
+}
+.active a:hover{
+    background-color:#128689 !important;
+    color:white;
+}
+.nav .open>a, .nav .open>a:focus, .nav .open>a:hover{
+    background-color: rgba(0,0,0,0);
+}
+
+.bottom{
+    margin-top: 150px;
+}
+
+.map{
+    width:100%;
+    height:400px;
+}
+.hiddenDiv{
+    display: none;
+}
+
+.anketa{
+    position:relative;
+    width:100%;
+    height:auto;
+    height:auto;
+    background-color: white;
+    overflow: hidden;
+    
+    box-shadow: 0px 5px 25px black;
+}
+
+/*.radioDugmici{
+    width:100%;
+    height:30px;
+    border:1px solid black;
+    align-content: center;
+    margin-right:12px;
+}*/
+
+.blue{
+    color:blue;
+}
+
+
+/*require(APPPATH."/core/backend_Controller.php");*/
+
+
+.centar_desno_promo{
+    background-color: white;
+    padding-top:20px;
+    padding-bottom:50px;
+    box-shadow:0px 0px 55px black;
+    left:150px;
+    border-radius:50px;
+    margin-bottom:100px;
+}
+.centar_desno_promo img{
+    box-shadow:0px 0px 15px black;
+    
+}
+
+.centar_desno_promo h5{
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bolder;
+}
+
+.centar_desno_promo a{
+    width:200px;
+    height:150px;
+}
+
+.sadrzaj_desno_promo{
+    
+}
+.fild{
+    
+        
+}
+#awesomeSpinner
+{
+    margin-top:40px;
+    display:none;
+}
+#gornjiDeo {
+    background-color: rgba(255,255,255,1);
+    width: 98%;
+    margin: 0 auto;
+    box-shadow: 0px 3px 5px black;
+    border-bottom: 5px solid #128689;
+    border-radius: 10px;
+    overflow: hidden;
+    border-top: 5px solid #128689;
+}
+#foursquare-data-sve{
+    text-align: center;
+    background-color: rgba(0,0,0,0.2);
+    width: 98%;
+    margin: 20px auto;
+    margin-bottom: 150px;
+    padding-bottom: 20px;
+    padding-top: 25px;
+    border-top: 10px solid #128689;
+    border-radius: 17px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display:none;
+    box-shadow: 0px -6px 10px black;
+}
+#foursquare-data-sve h4{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: rgba(255,255,255,1);
+    box-shadow: 0px -1px 8px black;
+    width: 98%;
+    margin: 0 auto;
+    margin-bottom: 35px;
+    color: #128689;
+    border-radius: 10px;
+    border-top: 4px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+}
+.levo
+{
+    float: left;
+    width: 70%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    margin: 0 auto;
+    padding-left: 10px;
+    border: 1px solid #128689;
+    background-color: rgba(18,134,137,1);
+    color: white;
+}
+.desno{
+    float: left;
+    width: 30%;
+    margin: 0 auto;
+    text-align: center;
+    box-shadow: -15px 0px 40px black;
+    padding-top: 27px;
+    padding-bottom: 27px;
+}
+.dugmeUnesi
+{
+    background-color: #128689;
+    /*border: 3px solid white;*/
+    color: white;
+}
+
+.foursquare-data{
+    border: 3px solid #128689;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: 15px;
+    background-color: rgba(255, 255, 255, 0.53);
+    transition: all 0.5s ease;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    text-align:left;
+}
+.foursquare-data:hover{
+    /*background-color: rgba(255,0,0,0.2);*/
+    background-color: #128689;
+    transition: all 0.5s ease;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    box-shadow: 0px 0px 5px black;
+    color:white;
+    cursor: default;
+}
+.foursquare-data a{
+    color:black;
+}
+/*.foursquare-data:hover a{
+    color:white;
+}*/
+.foursquare-data p{
+    margin : 0px auto;
+}
+.foursquare-data h3{
+    margin-top: 0px;
+}
+.foursquare-data address{
+    margin-bottom: 0px;
+}
+
+.box-desno{
+  box-shadow: 15px 0px 20px black;  
+}
+.box-levo{
+  box-shadow: -15px 0px 20px black;  
+}
+.modalHeader
+{
+    border-bottom: 1px solid #F0E4E4;
+    background-color: #128689;
+    color: white;
+}
+#map {
+        height: 550px;
+}
+.modalDialog{
+    width: 55%;
+/*    height: 55%;*/
+}
+#myModalContent {
+/*    height: 100%;*/
+    width: 100%;
+}
+#step-2 {
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+.tableInsert{
+    margin: -25px auto 20px auto;
+    width: 400px;
+}
+.tableInsert label {
+    margin-top: 25px;
+}
+#formInsert {
+    margin-top: 30px;
+    background-color: #128689;
+    width: 120px;
+}
+#back {
+    margin-top: 30px;
+    width: 120px;
+    margin-right: 20px;
+    background: white;
+    color: #128689;
+    border: 1px solid #128689;
+}
+#formButtons {
+    text-align: right;
+}

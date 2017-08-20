@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Sobe>
+	<Soba>
+		<tip>dvokrevetna</tip>
+		<pogled>sa pogledom na grad</pogled>
+		<WiFi>da</WiFi>
+		
+	</Soba>
+	<Soba>
+		<tip>Junior apartman</tip>
+		<pogled>bez pogleda na grad</pogled>
+		<WiFi>da</WiFi>
+		
+	</Soba>
+	<Soba>
+		<tip>Senior apartman</tip>
+		<pogled>sa pogledom na grad</pogled>
+		<WiFi>da</WiFi>
+		
+	</Soba>
+	<Soba>
+		<tip>dvokrevetna</tip>
+		<pogled>bez pogleda na grad</pogled>
+		<WiFi>da</WiFi>
+		
+	</Soba>
+</Sobe>

@@ -1,0 +1,97 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MarkoMaster.master.cs" Inherits="BioskopMarko.MarkoMaster" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="/assets/css/style.css"/>
+    <link href="/assets/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="/assets/css/modern-business.css" rel="stylesheet">
+
+    <!-- LightBox -->
+
+    <link rel="Stylesheet" type="text/css" href="assets/lightbox/css/lightbox.css" />
+	<script type="text/javascript "src="/assets/lightbox/js/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="/assets/lightbox/js/lightbox.min.js"></script>
+    
+    
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="/Default.aspx">Bioskop Marko</a>
+                <asp:Menu ID="MainMenu" runat="server" DataSourceID="SiteMapDataSource1" Orientation="Horizontal" RenderingMode="List" StaticDisplayLevels="2" CssClass="collapse navbar-collapse" StaticMenuStyle-CssClass="nav navbar-nav" StaticSelectedStyle-CssClass="active" DynamicMenuStyle-CssClass="dropdown-menu"
+                   IncludeStyleBlock="false"></asp:Menu>
+            <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" />
+            </div>
+            
+            
+            
+        </div>
+        
+    </nav>
+    
+
+        <div class="row">
+            
+                <div class="adminSadrzaj col-md-12 col-md-offset-0 col-lg-12 col-lg-offset-0">
+                    <div class="administracijaLevo col-md-12 col-md-offset-0 col-lg-12 col-lg-offset-0">
+                        <a href='/administracija/UpravljanjeFilmovima.aspx'>Upravljanje Filmovima</a>
+                        <a href='/administracija/UpravljanjeKorisnicima.aspx'>Upravljanje Korisnicima</a>
+                        <a href='/administracija/UpravljanjeSlikama.aspx'>Upravljanje Slikama</a>
+                        <a href='/administracija/UpravljanjeGalerijama.aspx'>Upravljanje Galerijama</a>
+                        <a href='/administracija/UpravljanjeStranamaKontakt.aspx'>Upravljanje Stranama Kontakt</a>
+                         <a href='/administracija/UpravljanjeAnketama.aspx'>Upravljanje Anketama</a>
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolderGore" runat="server">
+                             
+                        </asp:ContentPlaceHolder>
+                    </div>
+                    <div class="administracijaDesno col-md-12 col-md-offset-0 col-lg-12 col-lg-offset-0">
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolderDole" runat="server">
+        
+                        </asp:ContentPlaceHolder>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+        
+    
+            </div>
+        </div>
+    
+        
+
+
+        <hr>
+
+        
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>Copyright &copy; Your Website 2014</p>
+                </div>
+            </div>
+        </footer>
+        <script type="text/javascript" src="/assets/js/jquery.js"></script>
+        
+    
+    <script src="/assets/js/bootstrap.min.js"></script>
+    </div>
+    </form>
+</body>
+</html>
